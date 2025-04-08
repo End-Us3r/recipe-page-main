@@ -24,22 +24,22 @@ html {
 }
 
 body {
-    margin: 10vw;
+    margin: 7.5rem 20rem;
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: var(--white);
     color: #333;
+    border-radius: 20px;
 }
 
 .recipe-container {
-    padding: 30px;
-    border-radius: 15px;
+    padding: 25px;
 }
 
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 10psx;
+    border-radius: 10px;
 }
 
 h1 {
@@ -52,7 +52,19 @@ p {
     padding: 10px 0;
 }
 
-ul {
-    list-style-type: none;
+.info-box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--rose-50);
+}
+
+.info-box > h4 {
+    color: var(--rose-800);
+}
+
+ul > li, ol > li {
+    margin: 0 20px;
     padding: 0;
 }
